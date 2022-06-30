@@ -68,7 +68,6 @@
 - view
 - where (regular expression)
 - middleware
-elfoofhle
 - name route
 ## Learning
 
@@ -90,5 +89,19 @@ elfoofhle
 ## Homework
 
 ```
-Join Post and User table and display user name in post list and detail
+category (CRUD)
+relation with post (join)
+
+# table 
+    categories
+        - id
+        - name
+        - created_at
+        - updated_at
+
+    category_post (pivot table, post_category_relations)
+        - post_id
+        - category_id
+
+    posts
 ```
